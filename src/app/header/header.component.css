@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #1a1a1a;  /* Darker color for a modern look */
+  color: white;
+  border-bottom: 2px solid #00cbfd;  /* Adds a stylish bottom border */
+}
+
+.left-section a {
+  text-decoration: none;
+  color: #ffffff;  /* Matches the border color for a cohesive look */
+  font-weight: bold;
+  font-size: 24px;  /* Slightly larger font for better visibility */
+  font-family: 'Arial', sans-serif;
+  transition: color 0.3s ease;  /* Smooth transition on hover */
+}
+
+.left-section a:hover {
+  color: #ffffff;  /* Changes to white on hover */
+}
+
+.right-section a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;  /* Slightly larger font for consistency */
+  font-family: 'Arial', sans-serif;
+  transition: color 0.3s ease;
+}
+
+.right-section a:hover {
+  color: #ffffff;  /* Changes to the accent color on hover */
+}

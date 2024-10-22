@@ -1,0 +1,17 @@
+<div class="card" (click)="toggleCard()" [class.flipped]="isFlipped">
+  <div class="card-inner">
+    <div class="card-front">
+      <img [src]="page.logo" alt="{{ page.name }}" />
+      <a [href]="page.link" target="_blank" (click)="$event.stopPropagation()">
+        <h3>{{ page.name }}</h3>
+      </a>
+      <p>Average Reach: {{ page.avg_reach }}</p>
+      <p>Average Reacts: {{ page.avg_reacts }}</p>
+    </div>
+
+    <div class="card-back">
+      <h3>Audience</h3>
+      <p>{{ page.audience }}</p>
+    </div>
+  </div>
+</div>
